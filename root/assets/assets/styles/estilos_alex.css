@@ -1,10 +1,6 @@
-/* referencia por palabra clave */
-body{
-<<<<<<< HEAD
-    background-color: black;
-=======
-    background-color: rgba(22, 88, 175, 0.788);
 
+body{
+    background-color: black;
 }
 
 /*referencia por palabra clave*/
@@ -12,7 +8,10 @@ article{
     background-color: rgb(44, 43, 43);
 }
 
-<<<<<<< HEAD
 .resaltado {
-        color:yellow
+    color: yellow;
 }
+#titulo_del_blog(
+    text-align: center;
+    font-size: 3rem;
+)

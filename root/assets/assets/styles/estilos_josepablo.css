@@ -11,3 +11,8 @@ article{
 .resaltado {
     color: yellow;
 }
+
+#titulo_del_blog(
+    text-align: center;
+    font-size: 3rem;
+)
