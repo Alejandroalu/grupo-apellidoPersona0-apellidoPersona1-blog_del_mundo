@@ -1,29 +1,37 @@
-/* referencia por palabra clave */
+/*INICIA ESTILOS DE BODY*/
 body{
     background-color: black;
 }
+/*ACABA ESTILOS DE BODY*/
 
-/*referencia por palabra clave*/
+/*INICIA ESTILOS DE ARTICLE*/
 article{
     background-color: rgb(44, 43, 43);
     padding: 1.5rem;
     article-color: rgb(255, 255, 255);
 }
+/*ACABA ESTILOS DE ARTICLE*/
 
+/*INICIA ESTILOS DE CLASE: .RESULTADO*/
 .resaltado {
     color: yellow;
 }
+/*ACABA ESTILOS DE CLASE: .RESULTADO*/
 
+/*INICIA ESTILOS DE ID: #TITULO_DEL_BLOG*/
 #titulo_del_blog{
     text-align: center;
     font-size: 3rem;
 }
-/*les hace falta poner el texto en blanco*/
+/*ACABA ESTILOS DE ID: #TITULO_DEL_BLOG*/
 
+/*INICIA ESTILOS DE ID: #FOOTER_BLOG*/
 #footer_blog{
     margin: 2rem
 }
+/*ACABA ESTILOS DE ID: #FOOTER_BLOG*/
 
+/*INICIA ESTILOS DE CLASE: FIGCAPTION_ILUSTRACION*/
 .figcaption_ilustracion{
     margin-top: 1rem;
 
@@ -31,3 +39,14 @@ article{
 
     font-style: italic;
 }
+/*ACABA ESTILOS DE CLASE: FIGCAPTION_ILUSTRACION*/
+
+/*INICIA ESTILOS DE LISTA ORDENADA DENTRO DE NAV*/
+nav>ul>li{
+    list-style: none;
+}
+
+nav>ul>li>a{
+    text-decoration: none;
+}
+/*ACABAA ESTILOS DE LISTA ORDENADA DENTRO DE NAV*/
